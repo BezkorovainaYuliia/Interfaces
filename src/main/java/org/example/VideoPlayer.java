@@ -5,4 +5,12 @@ public class VideoPlayer implements Playable {
     public void play() {
         System.out.println("Playing video");
     }
+    @Override
+    public void stop(){
+
+    }
+
+    public void video(){
+        System.out.println("Video playing");
+    }
 }

@@ -5,4 +5,13 @@ public class MusicPlayer implements Playable {
     public void play() {
         System.out.println("Playing music");
     }
+
+    @Override
+    public void stop(){
+
+    }
+
+    public void audio(){
+        System.out.println("Audio playing");
+    }
 }
